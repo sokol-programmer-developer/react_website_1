@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sign_up_h1,
+.services_h1,
+.products_h1{
+    display: grid;
+    position: relative;
+    width: 70vw;
+    height: 20vh;
+
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    font-size: 5vh;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    transition: all, 0.5s linear;
+    cursor: pointer;
+
+    bottom: 50vh;
+    z-index: 30;
+    opacity: 0.7;
+}
+
+.signUp_img,
+.services_img,
+.products_img{
+    display: grid;
+    position: relative;
+    width:100vw;
+    height: 100vh;
+
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    top: 10vh;
+}
+
+.sign_up_section,
+.services_section,
+.products_section{
+    display: grid;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}

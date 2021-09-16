@@ -10,7 +10,7 @@ function CardItem(props) {
                 <Link className='cards__item__link' to={props.path}>
                     <figure className='cards__item__pic-wrap' data-category={props.label}>
                         <img
-                            className='cards__item__img'
+                            className='cards__item__pic'
                             alt='Travel Image'
                             src={props.src}
                         />

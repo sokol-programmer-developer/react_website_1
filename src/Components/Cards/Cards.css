@@ -64,7 +64,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
 .cards_header_h1,
 .cards__item__link,
 .cards__item,
-.cards__item__img,
+.cards__item__pic,
 .cards__item__pic-wrap,
 .cards__item__pic-wrap::after,
 .cards__item__text,
@@ -124,7 +124,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
     overflow: hidden;
 }
 
-.cards__item__img {
+.cards__item__pic{
     display: grid;
     position: absolute;
     width: 30vw;
@@ -134,7 +134,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
     transition: all 0.2s linear;
 }
 
-.cards__item__img:hover {
+.cards__item__pic:hover {
     transform: scale(1.1);
 }
 
@@ -246,7 +246,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
         overflow: hidden;
     }
 
-    .cards__item__img {
+    .cards__item__pic{
         display: grid;
         position: absolute;
         width: 40vw;
@@ -256,7 +256,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
         transition: all 0.2s linear;
     }
 
-    .cards__item__img:hover {
+   .cards__item__pic:hover {
         transform: scale(1.1);
     }
 
@@ -357,7 +357,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
         overflow: hidden;
     }
 
-    .cards__item__img {
+    .cards__item__pic {
         display: grid;
         position: absolute;
         width: 70vw;
@@ -367,7 +367,7 @@ a,ul,li{ outline: none; text-decoration: none; list-style-type:none;}
         transition: all 0.2s linear;
     }
 
-    .cards__item__img:hover {
+    .cards__item__pic:hover {
         transform: scale(1.1);
     }
 
